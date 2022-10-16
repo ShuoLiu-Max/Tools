@@ -1,0 +1,16 @@
+Line 31997: 10-15 08:39:47.418 [  478.965671][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x10000858, msg api name is: COMMAND_DMAP_REQUEST
+Line 31917: 10-15 08:39:47.418 [  478.965661][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x10000859, msg api name is: COMMAND_DMAP_REQUEST
+Line 31937: 10-15 08:39:47.418 [  478.965641][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x10000860, msg api name is: COMMAND_DMAP_REQUEST
+Line 31967: 10-15 08:39:47.418 [  478.965761][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x10000861, msg api name is: COMMAND_DMAP_REQUEST
+Line 31997: 10-15 08:39:47.418 [  478.967661][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x10001858, msg api name is: COMMAND_HDR_REQUEST
+Line 33430: 10-15 08:39:48.454 [  478.968661][I/ISP_SERVICE] <MSgResponse,591>succ resp DMAP_REQUEST. ack cam_id = 255, message_id = 0x10001858, status = 0
+Line 31917: 10-15 08:39:47.418 [  478.965661][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x10002859, msg api name is: COMMAND_HDR_REQUEST
+Line 33440: 10-15 08:39:49.454 [  478.965661][I/ISP_SERVICE] <MSgResponse,591>succ resp DMAP_REQUEST. ack cam_id = 255, message_id = 0x10002859, status = 0
+Line 31937: 10-15 08:39:47.418 [  478.965661][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x10003860, msg api name is: COMMAND_HDR_REQUEST
+Line 33420: 10-15 08:39:50.454 [  478.965663][I/ISP_SERVICE] <MSgResponse,591>succ resp DMAP_REQUEST. ack cam_id = 255, message_id = 0x10003860, status = 0
+Line 33410: 10-15 08:39:51.454 [  478.965861][I/ISP_SERVICE] <MSgResponse,591>succ resp DMAP_REQUEST. ack cam_id = 255, message_id = 0x10000861, status = 0
+Line 33430: 10-15 08:39:48.454 [  478.965691][I/ISP_SERVICE] <MSgResponse,591>succ resp DMAP_REQUEST. ack cam_id = 255, message_id = 0x10000858, status = 0
+Line 33440: 10-15 08:39:49.454 [  478.965662][I/ISP_SERVICE] <MSgResponse,591>succ resp DMAP_REQUEST. ack cam_id = 255, message_id = 0x10000859, status = 0
+Line 33420: 10-15 08:39:50.454 [  478.965661][I/ISP_SERVICE] <MSgResponse,591>succ resp DMAP_REQUEST. ack cam_id = 255, message_id = 0x10000860, status = 0
+Line 31967: 10-15 08:39:47.418 [  478.965761][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x20000861, msg api name is: COMMAND_DMAP_REQUEST
+Line 31997: 10-15 08:39:47.418 [  478.967661][T/ISP_SERVICE] <MSgResponse,591>message_id = 0x20001858, msg api name is: COMMAND_HDR_REQUEST
