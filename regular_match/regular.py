@@ -56,7 +56,7 @@ def request_cost_time():
             with open(file_name, 'r') as f:
                 f_data = f.readlines()
                 for f_d in f_data:
-                    if re.search(command_name, f_d):
+                    if re.search(command_name, f_d) and re.search('(.+?)\[', f_d) and re.search('\[(.*?\..*?)\]', f_d) and re.search('message_id = (0x.+),', f_d):
                         lineNum = re.search('(.+?)\[', f_d).group(1).strip()
                         timeS = re.search('\[(.*?\..*?)\]', f_d).group(1).strip()
                         messageId = re.search('message_id = (0x.+),', f_d).group(1)
@@ -67,7 +67,7 @@ def request_cost_time():
                             result[command_name][messageId] = [lineNum, timeS]
                             count += 1
                         temp[messageId] = command_name
-                    elif re.search('message_id', f_d):
+                    elif re.search('message_id', f_d) and re.search('message_id = (0x.+),', f_d) and re.search('\[(.*?\..*?)\]', f_d):
                         messageId = re.search('message_id = (0x.+),', f_d).group(1)
                         timeE = re.search('\[(.*?\..*?)\]', f_d).group(1).strip()
                         if temp.get(messageId, 0):
